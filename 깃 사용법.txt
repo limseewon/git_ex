@@ -1,0 +1,47 @@
+echo "# git_ex" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/limseewon/git_ex.git
+git push -u origin main
+
+1. git init 초기화(시작) 한번만!!
+2. 스테이지 올리기
+	git add 파일명
+	git add .
+3. 스냅샷(커멘트)
+	git commit -m "index.html 생성"
+4. 원격 저장소 연결 한번만!!
+	git remote add origin https://github.com/limseewon/git_ex.git
+5. 원격 저장소에 업로드(push)
+git push -u origin master
+
+
+2,3,5(add,commit,push) 이 세가지만 반복 사용
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
